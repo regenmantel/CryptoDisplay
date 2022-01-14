@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AItAjvd1TbT8qIlQFvBGInBnK5iZxdLSfikAauOOMh33qvzswY+Ryfwwc7DfqCER0bbNmGAXo4Z9KTjmfkS/pg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\schde\\Desktop\\cSHARP\\CryptoDisplay\\CryptoDisplay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\schde\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\schde\\.nuget\\packages\\restsharp\\106.15.0\\restsharp.106.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}

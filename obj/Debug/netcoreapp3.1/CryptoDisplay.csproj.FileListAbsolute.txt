@@ -1,0 +1,16 @@
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\bin\Debug\netcoreapp3.1\CryptoDisplay.exe
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\obj\Debug\netcoreapp3.1\CryptoDisplay.csprojAssemblyReference.cache
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\obj\Debug\netcoreapp3.1\CryptoDisplay.AssemblyInfoInputs.cache
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\obj\Debug\netcoreapp3.1\CryptoDisplay.AssemblyInfo.cs
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\obj\Debug\netcoreapp3.1\CryptoDisplay.csproj.CopyComplete
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\obj\Debug\netcoreapp3.1\CryptoDisplay.csproj.CoreCompileInputs.cache
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\bin\Debug\netcoreapp3.1\CryptoDisplay.deps.json
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\bin\Debug\netcoreapp3.1\CryptoDisplay.runtimeconfig.json
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\bin\Debug\netcoreapp3.1\CryptoDisplay.runtimeconfig.dev.json
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\bin\Debug\netcoreapp3.1\CryptoDisplay.dll
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\bin\Debug\netcoreapp3.1\CryptoDisplay.pdb
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\obj\Debug\netcoreapp3.1\CryptoDisplay.dll
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\obj\Debug\netcoreapp3.1\CryptoDisplay.pdb
+C:\Users\schde\Desktop\cSHARP\CryptoDisplay\obj\Debug\netcoreapp3.1\CryptoDisplay.genruntimeconfig.cache
