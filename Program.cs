@@ -8,7 +8,7 @@ namespace CryptoDisplay
     {
         
 
-        static string[] cryptoList = { "BTC", "ETH", /*"DOGE", "ALICE", "SHIB", "HOT", "AMP"*/ };
+        static string[] cryptoList = { "BTC", /*"ETH", "DOGE", "ALICE", "SHIB", "HOT", "AMP"*/ };
         static double btc_old = 1;
         static double btc_new = 1;
         static double btc = 0;
@@ -53,9 +53,9 @@ namespace CryptoDisplay
                     
                         //Console.WriteLine("BTC %: " + btc);
 
-                        Console.WriteLine("{0,-10} {1,-8} ${2,-10:0.00} {3:+0.00;-0.00}%", item.name, item.asset_id, item.price_usd, btc);
+                        Console.WriteLine("{0,-10} {1,-8} ${2-10:0.00} {3:+0.00;-0.00}%", item.name, item.asset_id, item.price_usd, btc);
                     }
-                    
+
                     btc_old = btc_new;
                 }
             }
