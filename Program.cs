@@ -8,7 +8,7 @@ namespace CryptoDisplay
     {
         
 
-        static string[] cryptoList = { "BTC", "ETH", "DOGE" };
+        static string[] cryptoList = { "BTC", "ETH", "DOGE", "ALICE", "SHIB", "HOT", "AMP" };
 
         public static void Main(string[] args)
         {
@@ -33,14 +33,14 @@ namespace CryptoDisplay
 
             var inf = JsonConvert.DeserializeObject<dynamic>(response.Content);
 
-            Console.WriteLine("BITCOIN // ETHEREUM // DOGE KURS: " + DateTime.Now + "\n");
+            Console.WriteLine("KURS: " + DateTime.Now + "\n");
             foreach (var item in inf)
             {
                 for (int i = 0; i < cryptoList.Length; i++)
                 {
                     if (item["asset_id"] == cryptoList[i])
                     {
-                        Console.WriteLine("{0} ({1}), ${2:0.00}", item.name, item.asset_id, item.price_usd);
+                        Console.WriteLine("{0,-10} {1,-10} ${2:0.000000}", item.name, item.asset_id, item.price_usd);
                     }
                 }
             }

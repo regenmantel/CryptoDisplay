@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\schde\\Desktop\\cSHARP\\CryptoDisplay\\CryptoDisplay.csproj": {}
+    "C:\\Users\\phili\\source\\repos\\CryptoDisplay\\CryptoDisplay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\schde\\Desktop\\cSHARP\\CryptoDisplay\\CryptoDisplay.csproj": {
+    "C:\\Users\\phili\\source\\repos\\CryptoDisplay\\CryptoDisplay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\schde\\Desktop\\cSHARP\\CryptoDisplay\\CryptoDisplay.csproj",
+        "projectUniqueName": "C:\\Users\\phili\\source\\repos\\CryptoDisplay\\CryptoDisplay.csproj",
         "projectName": "CryptoDisplay",
-        "projectPath": "C:\\Users\\schde\\Desktop\\cSHARP\\CryptoDisplay\\CryptoDisplay.csproj",
-        "packagesPath": "C:\\Users\\schde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\schde\\Desktop\\cSHARP\\CryptoDisplay\\obj\\",
+        "projectPath": "C:\\Users\\phili\\source\\repos\\CryptoDisplay\\CryptoDisplay.csproj",
+        "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phili\\source\\repos\\CryptoDisplay\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\schde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -62,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
