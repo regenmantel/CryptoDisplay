@@ -8,8 +8,10 @@ namespace CryptoDisplay
     {
         
 
-        static string[] cryptoList = { "BTC", "ETH", "DOGE", "ALICE", "SHIB", "HOT", "AMP" };
-
+        static string[] cryptoList = { "BTC", "ETH", /*"DOGE", "ALICE", "SHIB", "HOT", "AMP"*/ };
+        static double btc_old = 1;
+        static double btc_new = 1;
+        static double btc = 0;
         public static void Main(string[] args)
         {
             var startTimeSpan = TimeSpan.Zero;
@@ -33,15 +35,28 @@ namespace CryptoDisplay
 
             var inf = JsonConvert.DeserializeObject<dynamic>(response.Content);
 
-            Console.WriteLine("KURS: " + DateTime.Now + "\n");
+            Console.WriteLine("\nKURS: " + DateTime.Now + "\n");
             foreach (var item in inf)
             {
                 for (int i = 0; i < cryptoList.Length; i++)
                 {
                     if (item["asset_id"] == cryptoList[i])
                     {
-                        Console.WriteLine("{0,-10} {1,-10} ${2:0.000000}", item.name, item.asset_id, item.price_usd);
+                        btc_new = item.price_usd;
+
+                        //Console.WriteLine("BTC old: " + btc_old);
+                        //Console.WriteLine("BTC new: " + btc_new);
+
+                        if (btc_old > 1) 
+                            if (item["asset_id"] == "BTC")
+                                btc = (btc_new / btc_old - 1) * 100;
+                    
+                        //Console.WriteLine("BTC %: " + btc);
+
+                        Console.WriteLine("{0,-10} {1,-8} ${2,-10:0.00} {3:+0.00;-0.00}%", item.name, item.asset_id, item.price_usd, btc);
                     }
+                    
+                    btc_old = btc_new;
                 }
             }
         }

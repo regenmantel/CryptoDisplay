@@ -1,0 +1,7 @@
+C:\Users\phili\iCloudDrive\Documents\Programmieren\Visual Studio\publish\CryptoDisplay.exe
+C:\Users\phili\iCloudDrive\Documents\Programmieren\Visual Studio\publish\CryptoDisplay.dll
+C:\Users\phili\iCloudDrive\Documents\Programmieren\Visual Studio\publish\CryptoDisplay.deps.json
+C:\Users\phili\iCloudDrive\Documents\Programmieren\Visual Studio\publish\CryptoDisplay.runtimeconfig.json
+C:\Users\phili\iCloudDrive\Documents\Programmieren\Visual Studio\publish\CryptoDisplay.pdb
+C:\Users\phili\iCloudDrive\Documents\Programmieren\Visual Studio\publish\Newtonsoft.Json.dll
+C:\Users\phili\iCloudDrive\Documents\Programmieren\Visual Studio\publish\RestSharp.dll
